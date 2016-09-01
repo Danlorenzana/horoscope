@@ -1,0 +1,14 @@
+.container {
+	border: 1px solid black;
+	
+}
+#blue {
+	background-color: #aaa;
+}
+form {
+	padding-top: 400px;
+	text-align: center;
+}
+input {
+	width: 48%;
+}
