@@ -6,9 +6,45 @@
 	background-color: #aaa;
 }
 form {
-	padding-top: 400px;
+	padding: 30px;
+    margin-top: 20px;
 	text-align: center;
+    background-color: #ddd;
+    border-radius: 4px;
 }
-input {
-	width: 48%;
+
+#month {
+    width: 65%;
+    height: 40px;
+    font-size: 16pt;
+    padding: 30px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #bbb;
+}
+#date {
+    width: 30%;
+    height: 40px;
+    font-size: 16pt;
+    padding: 30px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #bbb;
+}
+button {
+    background-color: #fff;
+    border: none;
+    color: #000;
+    font-size: 25pt;
+    padding: 16px 32px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#poop {
+    text-align: center;
+}
+#poop h1 {
+    font-size: 25pt;
 }

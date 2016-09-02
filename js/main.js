@@ -7,67 +7,68 @@ function getInfo() {
 
 	if (birthMonth == "march") {
 		if (birthDate <=20)
-			console.log("Pisces");
-		else console.log("Aries");
+			document.getElementById("poop").innerHTML = "<h1>Pisces</h1>";
+		else document.getElementById("poop").innerHTML = "<h1>Aries</h1>";
 	}
 	else if (birthMonth == "april") {
 		if (birthDate <=19)
-			console.log("Aries");
-		else console.log("Taurus");
+			document.getElementById("poop").innerHTML = "<h1>Aries</h1>";
+		else document.getElementById("poop").innerHTML = "<h1>Taurus</h1>";
 	}
 	else if (birthMonth == "may") {
 		if (birthDate <=20)
-			console.log("Taurus");
-		else console.log("Gemini");
+			document.getElementById("poop").innerHTML = "<h1>Taurus</h1>";
+		else document.getElementById("poop").innerHTML = "<h1>Gemini</h1>";
 	}
 	else if (birthMonth == "june") {
 		if (birthDate <=20)
-			console.log("Gemini");
-		else console.log("Cancer");
+			document.getElementById("poop").innerHTML = "<h1>Gemini</h1>";
+		else document.getElementById("poop").innerHTML = "<h1>Cancer</h1>";
 	}
 	else if (birthMonth == "july") {
 		if (birthDate <=21)
-			console.log("Cancer");
-		else console.log("Leo");
+			document.getElementById("poop").innerHTML = "<h1>Cancer</h1>";
+		else document.getElementById("poop").innerHTML = "<h1>Leo</h1>";
 	}
 	else if (birthMonth == "august") {
 		if (birthDate <=22)
-			console.log("Leo");
-		else console.log("Virgo");
+			document.getElementById("poop").innerHTML = "<h1>Leo</h1>";
+		else document.getElementById("poop").innerHTML = "<h1>Virgo</h1>";
 	}
 	else if (birthMonth == "september") {
 		if (birthDate <=22)
-			console.log("Virgo");
-		else console.log("Libra");
+			document.getElementById("poop").innerHTML = "<h1>Virgo</h1>";
+		else document.getElementById("poop").innerHTML = "<h1>Libra</h1>";
 	}
 	else if (birthMonth == "october") {
 		if (birthDate <=22)
-			console.log("Libra");
-		else console.log("Scorpio");
+			document.getElementById("poop").innerHTML = "<h1>Libra</h1>";
+		else document.getElementById("poop").innerHTML = "<h1>Scorpio</h1>";
 	}
 	else if (birthMonth == "november") {
 		if (birthDate <=19)
-			console.log("Scorpio");
-		else console.log("Sagittarius");
+			document.getElementById("poop").innerHTML = "<h1>Scorpio</h1>";
+		else document.getElementById("poop").innerHTML = "<h1>Sagittarius</h1>";
 	}
 	else if (birthMonth == "december") {
 		if (birthDate <=20)
-			console.log("Sagittarius");
-		else console.log("Capricorn");
+			document.getElementById("poop").innerHTML = "<h1>Sagittarius</h1>";
+		else document.getElementById("poop").innerHTML = "<h1>Capricorn</h1>";
 	}
 	else if (birthMonth == "january") {
 		if (birthDate <=19)
-			console.log("Capricorn");
-		else console.log("Aquarius");
+			document.getElementById("poop").innerHTML = "<h1>Capricorn</h1>";
+		else document.getElementById("poop").innerHTML = "<h1>Aquarius</h1>";
 	}
 	else if (birthMonth == "february") {
 		if (birthDate <=18)
-			console.log("Aquairus");
-		else console.log("Pisces");
+			document.getElementById("poop").innerHTML = "<h1>Aquarius</h1>";
+		else document.getElementById("poop").innerHTML = "<h1>Pisces</h1>";
 	}
 	
 }
 
 
 
-// all opt-ins should be included here 
+
+
