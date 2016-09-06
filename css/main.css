@@ -2,49 +2,61 @@
 	border: 1px solid black;
 	
 }
-#blue {
-	background-color: #aaa;
+body {
+    background: #141B23 url(../img/zodiac_items-13.png) no-repeat;
+    background-color: #141B23;
+    background-size: cover;
 }
 form {
-	padding: 30px;
-    margin-top: 20px;
+    margin-top: 70px;
 	text-align: center;
-    background-color: #ddd;
-    border-radius: 4px;
 }
 
 #month {
-    width: 65%;
+    width: 25%;
     height: 40px;
-    font-size: 16pt;
+    font-size: 13pt;
     padding: 30px 20px;
     border: none;
     border-radius: 4px;
-    background-color: #bbb;
+    background-color: #EDECD1;
+    color: #141B23;
+    margin-right: 3px;
 }
 #date {
-    width: 30%;
+    width: 25%;
     height: 40px;
-    font-size: 16pt;
+    font-size: 13pt;
     padding: 30px 20px;
     border: none;
     border-radius: 4px;
-    background-color: #bbb;
+    background-color: #EDECD1;
+    color: #141B23;
+    margin-right: 3px;
 }
-button {
-    background-color: #fff;
+#button1 {
+    background-color: #EDECD1;
     border: none;
-    color: #000;
-    font-size: 25pt;
-    padding: 16px 32px;
+    color: #141B23;
+    font-size: 13pt;
+    padding: 8px 25px;
     border-radius: 4px;
     text-decoration: none;
-    margin: 4px 2px;
+    
     cursor: pointer;
 }
 #poop {
+    margin-top: 60px;
     text-align: center;
 }
 #poop h1 {
     font-size: 25pt;
+    color: #EDECD1;
+    letter-spacing: .1em;
+}
+#poop p {
+    font-size: 11pt;
+    padding-top: 5px;
+    letter-spacing: .1em;
+    color: #EDECD1;
 }
